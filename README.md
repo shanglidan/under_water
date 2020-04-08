@@ -30,41 +30,31 @@
     - pretrain
     - acoustic
     
-    并在acoustic目录下新建
-    --train
-        --front
-            --image
-                --xx.jpg
-                ...(前视声纳图像)
-            --box
-                --xx.xml
-                ...（前视声纳图像的xml）
-            --annotations
-        --side
-            --image
-                --xx.jpg
-                ...（侧扫声纳图像）
-            --box
-                --xx.xml
-                ...（侧扫声纳图像xml）
-            --annotations      
-        --negtive
-            --image
-                --xx.jpg
-                ...（负样本图像）
-            --box
-                --xx.xml
-                ...(负样本图像xml)
-
-  
-    --a-test-image
-        --image
-            --side
-                --xx.jpg(侧扫声纳测试图像)
-            --front
-                --xx.jpg(前视声纳测试图像)
-    
-
+    并在acoustic目录下新建如下目录：
+ 
+      |-- acoustic
+      |   |-- a-test-image
+      |   |   |-- image
+      |   |       |-- front
+      |   |       |   |-- xx.jpg(前视声纳测试图像)
+      |   |       |-- side
+      |   |           |-- xx.jpg(侧扫声纳测试图像)
+      |   |-- train
+      |       |-- front
+      |       |   |-- annotations
+      |       |   |-- box
+      |       |   |   |-- xx.xml
+      |       |   |-- image
+      |       |   |   |-- xx.jpg
+      |       |-- negtive
+      |       |   |-- box
+      |       |   |   |-- xx.xml
+      |       |   |-- image
+      |       |       |-- xx.jpg
+      |       |-- side
+      |           |-- annotations
+      |           |-- box
+      |           |-- image
     
 - **label文件格式转换**
 
