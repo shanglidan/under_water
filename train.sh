@@ -1,0 +1,4 @@
+./tools/dist_train.sh configs/front/20200404_cascade_rcnn_dconv_c3-c5_r101_fpn_1x_lr00125_600_1000_vflip.py 2
+./tools/dist_train.sh configs/side/20200404_cascade_rcnn_dconv_c3-c5_r101_fpn_1x_lr005_600_800_Vflip_vflip.py 2
+./tools/dist_train.sh configs/side/20200331_cascade_rcnn_dconv_c3-c5_r101_fpn_1x_lr005_600_800_Vflip_vflip.py 2
+./tools/dist_train.sh configs/side/20200404_cascade_rcnn_dconv_c3-c5_se101_fpn_1x_lr005_600_800_Vflip_vflip.py 2
