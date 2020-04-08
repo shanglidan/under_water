@@ -32,29 +32,31 @@
     
     并在acoustic目录下新建如下目录：
  
-      |-- acoustic
-      |   |-- a-test-image
-      |   |   |-- image
-      |   |       |-- front
-      |   |       |   |-- xx.jpg(前视声纳测试图像)
-      |   |       |-- side
-      |   |           |-- xx.jpg(侧扫声纳测试图像)
-      |   |-- train
-      |       |-- front
-      |       |   |-- annotations
-      |       |   |-- box
-      |       |   |   |-- xx.xml
-      |       |   |-- image
-      |       |   |   |-- xx.jpg
-      |       |-- negtive
-      |       |   |-- box
-      |       |   |   |-- xx.xml
-      |       |   |-- image
-      |       |       |-- xx.jpg
-      |       |-- side
-      |           |-- annotations
-      |           |-- box
-      |           |-- image
+      |-- acoustic<br>
+      |------a-test-image<br>
+      |-------------- image<br>
+      |------------------ front<br>
+      |---------------------- xx.jpg(前视声纳测试图像)<br>
+      |------------------ side<br>
+      |---------------------- xx.jpg(侧扫声纳测试图像）<br>
+      |------ train<br>
+      |-------------- front<br>
+      |-------------------annotations<br>
+      |-------------------box<br>
+      |--------------------- xx.xml<br>
+      |-------------------image<br>
+      |--------------------- xx.jpg<br>
+      |-------------- negtive<br>
+      |-------------------box<br>
+      |--------------------- xx.xml<br>
+      |-------------------image<br>
+      |--------------------- xx.jpg<br>
+      |--------------side<br>
+      |-------------------annotations<br>
+      |-------------------box<br>
+      |--------------------- xx.xml<br>
+      |-------------------image<br>
+      |--------------------- xx.jpg<br>
     
 - **label文件格式转换**
 
