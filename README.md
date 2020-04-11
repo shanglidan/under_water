@@ -73,13 +73,13 @@
 
 
 - **依赖安装编译**
-   2. 安装 pytorch
+   1. 安装 pytorch
         pip install torch==1.1.0 torchvision==0.3.0
         
-   3. 安装其他依赖
+   2. 安装其他依赖
         pip install cython && pip --no-cache-dir install -r requirements.txt
 
-   4. 编译cuda op等：
+   3. 编译cuda op等：
         python setup.py develop
 
 
@@ -88,8 +88,6 @@
    - 模型训练及预测步骤均写在shell文档下
 
      - 训练过程文件及最终权重文件均保存在config文件指定的workdirs目录中
-
-     
      - 预测结果json文件会保存在 data/results 目录下
      - 提交的csv文件在submit目录下
 
