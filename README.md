@@ -70,9 +70,6 @@
   - 下载casacde-rcnn-dconv-r101-fpn-1xCOCO预训练模型[cascade_rcnn_dconv_c3-c5_r101_fpn_1x_20190125-aaa877cc.pth](https://pan.baidu.com/s/12NbxkQpeoIDQtlrZ8szwIg
   ) ，提取码：c1u3，并将权重放置于 data/pretrain 目录下
 ## 依赖安装及编译
-
-
-- **依赖安装编译**
    1. 安装 pytorch
         pip install torch==1.1.0 torchvision==0.3.0
         
