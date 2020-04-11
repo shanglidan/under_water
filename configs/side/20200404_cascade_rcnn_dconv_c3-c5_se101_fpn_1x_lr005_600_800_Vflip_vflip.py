@@ -234,7 +234,7 @@ log_config = dict(
 total_epochs = 12
 dist_params = dict(backend='nccl')
 log_level = 'INFO'
-work_dir = './work_dirs_side/20200404_cas_dconv_se101_fpn_1x_lr005_600_800_Vflip'
+work_dir = './work_dirs_side/20200328_cas_dconv_se101_fpn_1x_lr005_600_800_Vflip'
 load_from = 'data/pretrain/cascade_rcnn_dconv_c3-c5_r101_fpn_1x_20190125-aaa877cc.pth'
 resume_from = None
 workflow = [('train', 1)]
