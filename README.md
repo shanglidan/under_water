@@ -1,6 +1,11 @@
 # 水下目标检测算法赛（声学）  underwater object detection algorithm contest 
 
-[TOC]
+## 指标
+ a榜：
+     单模：0.29469826
+     融合：0.29770296
+ b榜：
+     融合：0.20547618
 
 ## 整体思路
    + detection algorithm: Cascade R-CNN 
