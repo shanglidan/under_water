@@ -104,8 +104,3 @@
     
 训练好的权重链接https://pan.baidu.com/s/1FfMyRotjvcNWb-aKqTqwXg  提取码：abiu 
 
-## Contact
-
-    author：
-    
-    Tel：
